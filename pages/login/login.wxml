@@ -8,11 +8,11 @@
   <form class='f-row' bindsubmit='fSubmit'>
     <view class='loInputBox'>
       <image src='/assets/img/userName.png' mode='widthFix' class='loIconSt'></image>
-      <input type="number" maxlength="11" placeholder='请输入您的用户名' placeholder-style="color: #d5d5d5;" class='loInput' name="username"></input>
+      <input type="number" maxlength="11" placeholder='请输入您的用户名哈' placeholder-style="color: #d5d5d5;" class='loInput' name="username"></input>
     </view>
     <view class='loInputBox'>
       <image src='/assets/img/password.png' mode='widthFix' class='loIconSt'></image>
-      <input placeholder='请输入您的密码' password="true" placeholder-style="color: #d5d5d5;" class='loInput' name="password"></input>
+      <input placeholder='请输入您的密码哈' password="true" placeholder-style="color: #d5d5d5;" class='loInput' name="password"></input>
     </view>
     <button class='{{isSumbit?"loginBtnC":"loginBtnN"}}' disabled='{{!isSumbit}}' form-type="submit" style='border: none;'>确认登录</button>
   </form>
